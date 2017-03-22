@@ -1,6 +1,6 @@
 <?php
 
-// edit on github
+// edit on github test master
 
 // Theme được chia sẻ bởi Thế Hòa
 // Bạn có quyền sao chép, sửa đổi nhưng vui lòng giữ lại 1 dòng bản quyền ở footer. Cám ơn bạn đã ủng hộ :)
