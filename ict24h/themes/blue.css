@@ -1,0 +1,381 @@
+/*
+ * Skin: ICT 24h Blue App
+ * ----------
+
+============================
+SET mau mac dinh vao bien
+
+:root {
+  --main-bg-color: #3f9cd9;
+  --light-bg-color: #3c8dbc;
+  --dark-bg-color: #367fa9;
+}
+*/
+
+.skin-blue .main-header .navbar {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
+}
+
+.skin-blue .main-header .navbar .nav>li>a {
+  color: var(--main-bg-color, #3f9cd9);
+}
+
+.skin-blue .main-header .navbar .nav>li>a:hover,
+.skin-blue .main-header .navbar .nav>li>a:active,
+.skin-blue .main-header .navbar .nav>li>a:focus,
+.skin-blue .main-header .navbar .nav .open>a,
+.skin-blue .main-header .navbar .nav .open>a:hover,
+.skin-blue .main-header .navbar .nav .open>a:focus,
+.skin-blue .main-header .navbar .nav>.active>a {
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+  color: var(--main-bg-color, #3f9cd9);
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+  color: #3f9cd9;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+  background-color: #ddd;
+}
+
+@media (max-width: 767px) {
+  .skin-blue .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-blue .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-blue .main-header .navbar .dropdown-menu li a:hover {
+    background: var(--dark-bg-color, #367fa9);
+  }
+}
+
+.skin-blue .main-header .logo {
+  background-color: var(--main-bg-color, #3f9cd9);
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+
+.skin-blue .main-header li.user-header {
+  background-color: var(--light-bg-color, #3c8dbc);
+}
+
+.skin-blue .content-header {
+  background: transparent;
+}
+
+.skin-blue .wrapper,
+.skin-blue .main-sidebar,
+.skin-blue .left-side {
+  background-color: var(--main-bg-color, #3f9cd9);
+}
+
+.skin-blue .user-panel>.info,
+.skin-blue .user-panel>.info>a {
+  color: #fff;
+}
+
+.skin-blue .sidebar-menu>li.header {
+  color: #fff;
+  background: var(--dark-bg-color, #367fa9);
+}
+
+.skin-blue .sidebar-menu>li>a {
+  border-left: 3px solid transparent;
+}
+
+.skin-blue .sidebar-menu>li:hover>a,
+.skin-blue .sidebar-menu>li.active>a {
+  color: #ffffff;
+  background: var(--light-bg-color, #3c8dbc);
+  border-left-color: #ccc;
+}
+
+.skin-blue .sidebar-menu>li>.treeview-menu {
+  margin: 0 1px;
+  background: var(--dark-bg-color, #367fa9);
+}
+
+.skin-blue .sidebar a {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skin-blue .sidebar a:hover {
+  text-decoration: none;
+}
+
+.skin-blue .treeview-menu>li>a {
+  color: #fff;
+}
+
+.skin-blue .treeview-menu>li.active>a,
+.skin-blue .treeview-menu>li>a:hover {
+  color: #ffffff;
+}
+
+.skin-blue .sidebar-form {
+  border-radius: 3px;
+  border-bottom: 1px solid #fff;
+  margin: 5px 5px;
+  width: 30%;
+}
+
+.skin-blue .sidebar-form input[type="text"],
+.skin-blue .sidebar-form .btn {
+  box-shadow: none;
+  border: 1px solid transparent;
+  height: 35px;
+}
+
+.skin-blue .sidebar-form input[type="text"] {
+  color: #fff;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+
+.skin-blue .sidebar-form input[type="text"]:focus,
+.skin-blue .sidebar-form input[type="text"]:focus+.input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+
+.skin-blue .sidebar-form input[type="text"]:focus+.input-group-btn .btn {
+  border-left-color: #fff;
+}
+
+.skin-blue .sidebar-form .btn {
+  color: #fff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+
+.skin-blue.layout-top-nav .main-header>.logo {
+  background-color: var(--light-bg-color, #3c8dbc);
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+
+
+/*
+*
+* Hoa
+*
+*/
+
+
+/* Form Tìm kiếm trên top navbar */
+
+.navbar-form {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar-form .form-control {
+  padding: 8px 6px;
+  border-radius: 0;
+  border: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #E3E3E3;
+  background-color: transparent;
+}
+
+.navbar-transparent .navbar-form .form-control,
+[class*="navbar-ct"] .navbar-form .form-control,
+.navbar-transparent .navbar-form .input-group-addon,
+[class*="navbar-ct"] .navbar-form .input-group-addon {
+  color: #FFFFFF;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.13);
+}
+
+[class*="navbar-ct"] .navbar-form .form-control:focus,
+[class*="navbar-ct"] .navbar-form .input-group-focus .input-group-addon {
+  background-color: rgba(255, 255, 255, 0.23);
+  color: #FFFFFF;
+}
+
+[class*="navbar-ct"] .navbar-form .form-control:-moz-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+[class*="navbar-ct"] .navbar-form .form-control:-webkit-input-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+[class*="navbar-ct"] .navbar-form .form-control:-ms-input-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-form .input-group-addon {
+  border-radius: 0;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  color: #E3E3E3;
+  padding: 0 7px;
+  border-radius: 4px 0 0 4px;
+}
+
+.navbar-form .input-group-focus .input-group-addon,
+.navbar-form .form-control:focus {
+  color: #9A9A9A;
+}
+
+
+/* Change box primary style */
+
+.box.box-solid.box-primary {
+  border: 1px solid var(--border-box-color, rgba(60, 141, 188, 0.35));
+}
+
+.box.box-solid.box-primary>.box-header {
+  background: var(--main-bg-color, #3f9cd9);
+  background-color: var(--main-bg-color, #3f9cd9);
+}
+
+.box {
+  border-radius: 0px;
+}
+
+.box-header>.fa,
+.box-header>.glyphicon,
+.box-header>.ion,
+.box-header .box-title {
+  font-size: 16px;
+}
+
+
+/**/
+
+
+/*
+.main-sidebar, .left-side {
+  padding-top: 15px;
+  
+}
+
+.sidebar-logo {
+  width: 190px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  
+}
+*/
+
+.content-wrapper,
+.right-side {
+  background-color: var(--content-bg-color, #ecf0f5);
+}
+
+.logo-lg {
+  max-height: 50px;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+
+/*** PANEL PRIMARY ***/
+
+.panel.with-nav-tabs .panel-heading {
+  padding: 5px 5px 0 5px;
+}
+
+.panel.with-nav-tabs .nav-tabs {
+  border-bottom: none;
+}
+
+.panel.with-nav-tabs .nav-justified {
+  margin-bottom: -1px;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>li>a,
+.with-nav-tabs.panel-primary .nav-tabs>li>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>li>a:focus {
+  color: #fff;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>.open>a,
+.with-nav-tabs.panel-primary .nav-tabs>.open>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>.open>a:focus,
+.with-nav-tabs.panel-primary .nav-tabs>li>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>li>a:focus {
+  color: #fff;
+  background-color: var(--dark-bg-color,#3071a9);
+  border-color: transparent;
+}
+
+.with-nav-tabs.panel-primary .nav-tabs>li.active>a,
+.with-nav-tabs.panel-primary .nav-tabs>li.active>a:hover,
+.with-nav-tabs.panel-primary .nav-tabs>li.active>a:focus {
+  color: #428bca;
+  background-color: #fff;
+  border-color: #428bca;
+  border-bottom-color: transparent;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: var(--main-bg-color,#337ab7);
+    border-color: var(--main-bg-color,#337ab7);
+}
+
+.nav-tabs>li>a {
+  border-radius: 0px;
+}
+
+.panel-primary {
+  border-color: var(--content-bg-color,#fff);
+}
+.panel-heading {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.panel {
+  border-radius: 0px;
+}
+
+/* Nut PRIMARY */
+.btn-primary {
+    background-color: var(--main-bg-color,#337ab7);
+    border-color: var(--main-bg-color,#337ab7);
+}
+/* Canh giua cac bang */
+table td {
+  vertical-align: middle !important;
+}
+/* set thuoc tinh cho the HR */
+hr { 
+    text-align: center;
+    width: 95%;
+    border-color: var(--main-bg-color,#337ab7); /* Chrome and Safari */
+    background-color: var(--main-bg-color,#337ab7); /* Firefox and Opera */
+    color: var(--main-bg-color,#337ab7); /*IE7+ */
+ }
+  /**/
+.well{
+  border-radius: 0px;
+  background-color: #fff;
+}
