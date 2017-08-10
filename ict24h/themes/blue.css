@@ -110,7 +110,7 @@ SET mau mac dinh vao bien
 .skin-blue .sidebar a {
   color: #ffffff;
   font-size: 13.5px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .skin-blue .sidebar a:hover {
@@ -378,4 +378,11 @@ hr {
 .well{
   border-radius: 0px;
   background-color: #fff;
+}
+/* Set mau nen */
+.bg-success {
+    background-color: #dff0d8;
+}
+.bg-danger {
+    background-color: #f2dede;
 }
