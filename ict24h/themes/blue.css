@@ -386,3 +386,15 @@ hr {
 .bg-danger {
     background-color: #f2dede;
 }
+/* Style morris chart */
+text {
+  font-family: 'Roboto' !important;
+}
+@media(max-width: 767px) {
+  .chart-left-box {
+    padding: 10px;
+  }
+}
+.chart-left-box {
+  padding: 50px 5px 50px 110px;
+}
